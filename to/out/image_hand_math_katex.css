@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Photo Hand Math";
+  src: url("./PhotoHandMath.woff2") format("woff2"),
+       url("./PhotoHandMath.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.hand-math {
+  font-family: "Photo Hand Math", "KaTeX_Main", serif;
+}

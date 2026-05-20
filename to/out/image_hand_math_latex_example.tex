@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+
+\setmathfont{Latin Modern Math}
+\setmathfont{PhotoHandMath.ttf}[
+  Path = ./,
+  range = {"0020,"002B,"002D,"003C-"003E,"00AC,"00B1,"00D7,"00F7,
+           "00B0,"0391-"03C9,"2190-"21FF,"2200-"22FF,
+           "25A0-"25FF,"27C2}
+]
+
+\begin{document}
+\[
+  \alpha+\beta\approx\gamma,\quad
+  \sum_i x_i,\quad
+  A \Rightarrow B,\quad
+  \int f(x)\,dx
+\]
+\end{document}
